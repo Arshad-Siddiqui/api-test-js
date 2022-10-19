@@ -8,3 +8,6 @@ const fetchRepositoryInfo = (repoName, callBack) => {
     });
 };
 module.exports = fetchRepositoryInfo;
+fetchRepositoryInfo('sinatra/sinatra', (receivedResponse) => {
+    console.log(receivedResponse);
+});
