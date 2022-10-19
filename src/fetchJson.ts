@@ -1,5 +1,4 @@
 namespace fetchJson {
-
 const got = require('got');
 
 const fetchJson = (url: string, callBack: Function) => {
@@ -14,5 +13,4 @@ const fetchJson = (url: string, callBack: Function) => {
 // })
 
 module.exports = fetchJson
-
 }
