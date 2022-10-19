@@ -9,9 +9,9 @@ const fetchJson = (url: string, callBack: Function) => {
   })
 }
 
-fetchJson('https://jsonplaceholder.typicode.com/todos', (response: JSON) => {
-  console.log(response);
-})
+// fetchJson('https://jsonplaceholder.typicode.com/todos', (response: JSON) => {
+  // console.log(response);
+// })
 
 module.exports = fetchJson
 

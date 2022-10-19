@@ -8,8 +8,5 @@ var fetchJson;
             callBack(result);
         });
     };
-    fetchJson('https://jsonplaceholder.typicode.com/todos', (response) => {
-        console.log(response);
-    });
     module.exports = fetchJson;
 })(fetchJson || (fetchJson = {}));
